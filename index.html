@@ -349,6 +349,17 @@ sphereCorrection: {
           thumbnail: `${baseUrl}5.jpg`,
           name: 'Hypertrophy Lab',
           caption: 'Hypertrophy Lab',
+          markers: [
+    {
+      id: 'marker-image-nodo2',
+      imageLayer: '../mancuerna.png',  // Ruta a tu imagen (puede ser relativa)
+      position: { yaw: 1.5, pitch: 0 },  // Ajusta los valores según donde lo quieras posicionar
+      size: { width: 602, height: 522 },     // Tamaño del marker
+      // anchor y rotation se pueden agregar si es necesario, por ejemplo:
+      // anchor: { x: 0.5, y: 0.5 },
+      // rotation: 45
+    }
+  ],
           links: [
           { nodeId: 'nodo6', position:{yaw: 5.765386892810223, pitch: -0.19620856396449327}},
 { nodeId: 'nodo10', position:{yaw: 1.1419710183989666, pitch: -0.34834834314032737}},
